@@ -11,8 +11,8 @@ Describe "Calculator" {
 
         $deps = @{
             'Interop.UIAutomationClient' = '10.19041.0';
-            'FlaUI.Core' = '3.2.0';
-            'FlaUI.UIA3' =  '3.2.0'
+            'FlaUI.Core' = '4.0.0';
+            'FlaUI.UIA3' =  '4.0.0';
         }
 
         Add-NuGetDependencies -NugetPackages $deps

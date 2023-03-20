@@ -4,27 +4,27 @@ Here you will find some automation samples for using [FlaUI](https://github.com/
 
 ## Requirements
 
-* Windows PowerShell 5.0+
+* Windows PowerShell 5.1+
 * Installed [Pester Powershell module](https://github.com/pester/Pester#installation)
 
 ## Hints
 
-The scripts are tests with Windows 10 Version 1809 (OS Build 17763.2237).
+The scripts are tested with Windows 10 Version 1809 (OS Build 17763.2237) and Windows 10 21H2 (OS Build 19044.2728).
 
+```
     $PSVersionTable
 
     Name                           Value
     ----                           -----
-    PSVersion                      5.1.17763.2183
+    PSVersion                      5.1.19041.2673
     PSEdition                      Desktop
     PSCompatibleVersions           {1.0, 2.0, 3.0, 4.0...}
-    BuildVersion                   10.0.17763.2183
+    BuildVersion                   10.0.19041.2673
     CLRVersion                     4.0.30319.42000
     WSManStackVersion              3.0
     PSRemotingProtocolVersion      2.3
     SerializationVersion           1.1.0.1
-
-
+```
 
 ## Contribution
 
